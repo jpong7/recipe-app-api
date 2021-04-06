@@ -6,7 +6,6 @@ from rest_framework.test import APIClient
 from rest_framework import status
 
 CREATE_USER_URL = reverse('user:create')
-TOKEN_URL = reverse('user:token')
 
 
 def create_user(**params):
